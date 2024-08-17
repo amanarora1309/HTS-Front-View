@@ -13,6 +13,9 @@ export const FORGOT_PASSWORD = url_online + "/ForgotPassword";
 export const RESET_PASSWORD = url_online + "/ResetPassword";
 
 
+// export const SECOND_APP_URL = "http://app2.is10live.com/"
+export const SECOND_APP_URL = "http://localhost:3000/"
+
 
 
 // Auth 

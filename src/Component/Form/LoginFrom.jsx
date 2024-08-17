@@ -8,6 +8,7 @@ import { faEyeSlash } from '@fortawesome/free-solid-svg-icons/faEyeSlash';
 import Loader from "../Loader/Loader";
 import { Link } from "react-router-dom";
 import ForgotPasswordForm from "./ForgotPasswordForm";
+import { SECOND_APP_URL } from "../../helpers/url_helper";
 
 function LoginForm() {
     const [email, setemail] = useState("");
@@ -36,10 +37,10 @@ function LoginForm() {
 
             const result = await Login({ email, password })
             if (result?.success) {
-                // Save authUser to localStorage in the login app
+                // Save authUser to localStorage in the login app 
 
                 // Redirect to dashboard
-                window.location.href = `http://is10live:3000/?authtoken=${JSON.stringify(result)}`;
+                window.location.href = `${SECOND_APP_URL}dashboard/?authtoken=${JSON.stringify(result)}`;
 
             }
             else {
