@@ -19,8 +19,8 @@ function Contact() {
   } else {
     content = (
       <>
-        <Header logo="assets/images/logo4.png" joinBtn={true} />
-        <Banner title="Contact Us" background="assets/images/banner.jpg" />
+        <Header logo="assets/images/logo7.png" joinBtn={true} />
+        <Banner title="Contact Us" background="assets/images/contact-header.jpg" />
         <section className="contact-section">
           <div className="container">
             <div className="row">
@@ -34,26 +34,22 @@ function Contact() {
                     <h5>Headquaters</h5>
                     <p>
                       <i className="icon_house_alt"></i>
-                      744 New York Ave, Brooklyn, Kings,
-                      <br /> New York 10224
+                      #503, 5th Floor DLF Prime Tower Okhla
+                      <br /> Phase – 1 New Delhi, INDIA.
                     </p>
                   </div>
                   <div className="single-info">
                     <h5>Phone</h5>
                     <p>
                       <i className="icon_phone"></i>
-                      (+642) 245 356 432
-                      <br />
-                      (+420) 336 476 328
+                      +91 93191 23429
                     </p>
                   </div>
                   <div className="single-info">
                     <h5>Support</h5>
                     <p>
                       <i className="icon_mail_alt"></i>
-                      bisy@support.com
-                      <br />
-                      help@education.com
+                      sales@omr.co.in
                     </p>
                   </div>
                   <div className="ab-social">

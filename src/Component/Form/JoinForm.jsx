@@ -25,7 +25,8 @@ function JoinForm() {
     const navigate = useNavigate();
 
     const sendOtp = async () => {
-        console.log(email)
+
+
         if (!email) {
             toast.error("Enter email id");
         }
@@ -67,6 +68,7 @@ function JoinForm() {
 
 
     const handleSubmit = async (e) => {
+
         e.preventDefault();
         console.log("submit")
         if (!email || !phoneNumber || !password || !confirmPassword) {
@@ -83,13 +85,14 @@ function JoinForm() {
                 toast.error("Invalid phone number format");
             }
             else {
+                console.log("fdkjfkdjfkdjfkjdkjf")
                 setLoader(true);
                 let username = email;
                 const result = await CreateOrganization({ username, email, phoneNumber, password, confirmPassword })
                 if (result?.success) {
                     setLoader(false);
                     toast.success(result?.message);
-                    navigate("login");
+                    navigate("/login");
                 }
                 else {
                     setLoader(false);

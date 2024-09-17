@@ -33,6 +33,8 @@ function PackageCard({ packageInfo, id, status }) {
     classes,
     link,
     description,
+    ai,
+    aiPrice
   } = packageInfo;
   return (
     <div
@@ -55,23 +57,34 @@ function PackageCard({ packageInfo, id, status }) {
       </div>
       <div className="pack-details">
         <div className="pack-price">
-          <span>${price}</span> ${offerPrice} / 2 Year(s)
+          <span>${price}</span> ${offerPrice}
         </div>
         <h3>{memberShipStatus}</h3>
         <div className="pack-meta">
-          <span>
+          {/* <span>
             <i className="icon_book_alt"></i>
             {exam} Exam
-          </span>
+          </span> */}
           {/* <span>
             <i className="icon_toolbox_alt"></i>
             {classes} Classes
           </span> */}
         </div>
-        <p>{description}</p>
-        <Link to={link} className="bisylms-btn">
-          Apply Now
-        </Link>
+        <div className="">
+          <h4 className="mb-1">Features</h4>
+          <p className="mb-2">{description}</p>
+        </div>
+        <div className="">
+          <h4 className="mb-1">AI Features</h4>
+          <p className="mb-0">{ai}</p>
+          <p className="fw-bold mb-0" style={{ fontWeight: "bold" }}>{aiPrice}</p>
+        </div>
+        <div className="d-flex justify-content-end">
+
+          <Link to={link} className="bisylms-btn">
+            Purchase Now
+          </Link>
+        </div>
       </div>
     </div>
   );

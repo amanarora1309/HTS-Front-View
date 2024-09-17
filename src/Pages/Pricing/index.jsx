@@ -23,8 +23,8 @@ function Pricing() {
     } else {
         content = (
             <>
-                <Header logo="assets/images/logo4.png" joinBtn={true} />
-                <Banner title="Pricing" background="assets/images/banner.jpg" />
+                <Header logo="assets/images/logo7.png" joinBtn={true} />
+                <Banner title="Pricing" background="assets/images/price-header.jpg" />
 
                 <Package />
 

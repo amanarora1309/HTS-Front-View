@@ -2,6 +2,7 @@ import ProtoTypes from "prop-types";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import useWindowPosition from "../../Hooks/useWindowPosition";
+import { HashLink as Link1 } from 'react-router-hash-link';
 
 function Header({ className, logo, joinBtn, search }) {
   const [activeMobileMenu, setActiveMobileMenu] = useState(false);
@@ -21,7 +22,7 @@ function Header({ className, logo, joinBtn, search }) {
                 <img src={logo} alt="" />
                 <img
                   className="sticky-logo"
-                  src="assets/images/logo4.png"
+                  src="assets/images/logo7.png"
                   alt=""
                 />
               </Link>
@@ -44,180 +45,23 @@ function Header({ className, logo, joinBtn, search }) {
                 style={{ display: activeMobileMenu && "block" }}
               >
                 <ul className="navbar-nav">
-                  <li
-                    className="menu-item-has-children"
-                    onClick={() =>
-                      setActiveSubMobileMenu(
-                        activeMobileSubMenu === "home" ? false : "home"
-                      )
-                    }
-                  >
-                    <a>Home</a>
-                    <span className="submenu-toggler">
-                      <i
-                        className={`fal ${activeMobileSubMenu === "home"
-                          ? "fa-minus"
-                          : "fa-plus"
-                          }`}
-                      ></i>
-                    </span>
-                    <ul
-                      className="sub-menu"
-                      style={{
-                        display: activeMobileSubMenu === "home" && "block",
-                      }}
-                    >
-                      <li>
-                        <Link to="/">Home One</Link>
-                      </li>
-                      <li>
-                        <Link to="/home-2">Home Two</Link>
-                      </li>
-                      <li>
-                        <Link to="/home-3">Home Three</Link>
-                      </li>
-                    </ul>
+                  <li>
+                    <Link to="/">Home </Link>
                   </li>
-                  <li
-                    className="menu-item-has-children"
-                    onClick={() =>
-                      setActiveSubMobileMenu(
-                        activeMobileSubMenu === "course" ? false : "course"
-                      )
-                    }
-                  >
-                    <a>Features</a>
-                    <span className="submenu-toggler">
-                      <i
-                        className={`fal ${activeMobileSubMenu === "course"
-                          ? "fa-minus"
-                          : "fa-plus"
-                          }`}
-                      ></i>
-                    </span>
-                    <ul
-                      className="sub-menu"
-                      style={{
-                        display: activeMobileSubMenu === "course" && "block",
-                      }}
-                    >
-                      <li>
-                        <Link to="/course-1">Course 01</Link>
-                      </li>
-                      <li>
-                        <Link to="/course-2">Course 02</Link>
-                      </li>
-                      <li>
-                        <Link to="/course-3">Course 03</Link>
-                      </li>
-                      <li>
-                        <Link to="/single-course">Course Details</Link>
-                      </li>
-                    </ul>
+                  <li>
+                    <Link to="/about-1">About</Link>
                   </li>
-                  <li
-                    className="menu-item-has-children"
-                    name="pages"
-                    onClick={(e) => {
-                      setActiveSubMobileMenu(
-                        e.target.name
-                          ? e.target.name === activeMobileSubMenu
-                            ? "pages"
-                            : e.target.name
-                          : activeMobileSubMenu === "pages"
-                            ? false
-                            : "pages"
-                      );
-                    }}
-                  >
-                    <a>Pricing</a>
-                    <span className="submenu-toggler">
-                      <i
-                        className={`fal ${activeMobileSubMenu === "pages"
-                          ? "fa-minus"
-                          : "fa-plus"
-                          }`}
-                      ></i>
-                    </span>
-                    <ul
-                      className="sub-menu"
-                      style={{
-                        display:
-                          (activeMobileSubMenu === "pages" && "block") ||
-                          (activeMobileSubMenu === "aboutPages" && "block"),
-                      }}
-                    >
-                      <li>
-                        <Link to="/pricing">Pricing</Link>
-                      </li>
-                      <li className="menu-item-has-children">
-                        <a name="aboutPages">About Pages</a>
-                        <span className="submenu-toggler" name="aboutPages">
-                          <i
-                            className={`fal ${activeMobileSubMenu === "aboutPages"
-                              ? "fa-minus"
-                              : "fa-plus"
-                              }`}
-                            name="aboutPages"
-                          ></i>
-                        </span>
-                        <ul
-                          className="sub-menu"
-                          style={{
-                            display:
-                              activeMobileSubMenu === "aboutPages" && "block",
-                          }}
-                        >
-                          <li>
-                            <Link to="/about-1">About 01</Link>
-                          </li>
-                          <li>
-                            <Link to="/about-2">About 02</Link>
-                          </li>
-                        </ul>
-                      </li>
-                      <li>
-                        <Link to="/instructor">Instructor Page</Link>
-                      </li>
-                      <li>
-                        <Link to="/profile">Instructor Profile</Link>
-                      </li>
-                      <li>
-                        <Link to="/404">404 Page</Link>
-                      </li>
-                    </ul>
+                  <li>
+                    {/* <Link to="#feature">Features </Link> */}
+                    <Link1 smooth to="#feature">Features</Link1>
                   </li>
-                  <li
-                    className="menu-item-has-children"
-                    onClick={() =>
-                      setActiveSubMobileMenu(
-                        activeMobileSubMenu === "blog" ? false : "blog"
-                      )
-                    }
-                  >
-                    <a>Privacy</a>
-                    <span className="submenu-toggler">
-                      <i
-                        className={`fal ${activeMobileSubMenu === "blog"
-                          ? "fa-minus"
-                          : "fa-plus"
-                          }`}
-                      ></i>
-                    </span>
-                    <ul
-                      className="sub-menu"
-                      style={{
-                        display: activeMobileSubMenu === "blog" && "block",
-                      }}
-                    >
-                      <li>
-                        <Link to="/blog">Blog Page</Link>
-                      </li>
-                      <li>
-                        <Link to="/single-post">Blog Details</Link>
-                      </li>
-                    </ul>
+                  <li>
+                    <Link to="/pricing">Pricing</Link>
                   </li>
+
+
+
+
                   <li>
                     <Link to="/contact">Contact</Link>
                   </li>

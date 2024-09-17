@@ -19,8 +19,8 @@ function Join() {
     } else {
         content = (
             <>
-                <Header logo="assets/images/logo4.png" joinBtn={true} />
-                <Banner title="Join For Free" background="assets/images/banner.jpg" />
+                <Header logo="assets/images/logo7.png" joinBtn={true} />
+                <Banner title="Join For Free" background="assets/images/joinUs.jpg" />
                 <section className="contact-section">
                     <div className="container">
                         <div className="row">
@@ -76,9 +76,7 @@ function Join() {
                             <div className="col-md-6 m-auto">
                                 <div className="contact-form">
                                     <h4>Let’s Join</h4>
-                                    <p>
-                                        Integer at lorem eget diam facilisis lacinia ac id massa.
-                                    </p>
+
                                     <JoinForm />
                                 </div>
                             </div>

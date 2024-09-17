@@ -1,5 +1,6 @@
 import ProtoTypes from "prop-types";
 import CourseItemCard from "../Cards/CourseItemCard";
+import WhyChooseUs from "./WhyChooseUs";
 
 function PopularCourse({ course, heading }) {
   return (
@@ -9,12 +10,12 @@ function PopularCourse({ course, heading }) {
           <div className="row">
             <div className="col-md-8">
               <h2 className="sec-title">
-                <span>Explore</span> Our Popular Courses
+                <span>Explore</span> Our Popular Features
               </h2>
             </div>
             <div className="col-md-4">
               <a className="read-more" href="#">
-                Browse Online Courses<i className="arrow_right"></i>
+                Browse More Features<i className="arrow_right"></i>
               </a>
             </div>
           </div>
@@ -23,7 +24,7 @@ function PopularCourse({ course, heading }) {
           <div className="row">
             <div className="col-lg-12">
               <div className="course-wrapper">
-                <CourseItemCard title="Computer Science" link="single-course">
+                <CourseItemCard title="Seamless Examination Generation – Both Offline & Online" link="single-course">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -55,7 +56,7 @@ function PopularCourse({ course, heading }) {
                   </svg>
                 </CourseItemCard>
                 <CourseItemCard
-                  title="Data Analysis & Statistics"
+                  title="State-of-the-Art AI-Based Data Analytics"
                   link="single-course"
                 >
                   <svg
@@ -74,7 +75,7 @@ function PopularCourse({ course, heading }) {
                   </svg>
                 </CourseItemCard>
                 <CourseItemCard
-                  title="Business & Management"
+                  title="Comprehensive Online Proctoring Tools"
                   link="single-course"
                 >
                   <svg
@@ -92,7 +93,7 @@ function PopularCourse({ course, heading }) {
                     />
                   </svg>
                 </CourseItemCard>
-                <CourseItemCard title="Social Sciences" link="single-course">
+                <CourseItemCard title="Question Bank Authoring Made Simple" link="single-course">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -109,7 +110,7 @@ function PopularCourse({ course, heading }) {
                   </svg>
                 </CourseItemCard>
                 <CourseItemCard
-                  title="Biology & Life Sciences"
+                  title="Flexibility and Ease of Use"
                   link="single-course"
                 >
                   <svg
@@ -131,28 +132,67 @@ function PopularCourse({ course, heading }) {
             </div>
           </div>
         )}
+
         <div className="row mt-120">
-          <div className="col-lg-7 col-md-6">
-            <div className="ab-thumb">
-              <img src="assets/images/home/1.png" alt="" />
+          <div className="row">
+            <h2 className="sec-title">
+              <span>About Us</span>
+            </h2>
+          </div>
+          <div className="row">
+
+
+            <div className="col-lg-7 col-md-6">
+              <div className="ab-thumb">
+                <img src="assets/images/home/1.png" alt="" />
+              </div>
+            </div>
+            <div className="col-lg-5 col-md-6">
+              <div className="ab-content">
+                <h3>Intelligent Secure Testing & Evaluation Node: </h3>
+                <p className="mid-item">
+                  Who else do you know who'll do that for you?
+                </p>
+                <p>
+                  A Comprehensive One-Stop Solution for Modern Assessments
+                  In the rapidly evolving educational landscape, the demand for reliable, secure, and efficient assessment solutions has never been higher. Enter the Intuitive Secure
+                  Testing & Evaluation Node (IS10)—an innovative, all-encompassing software designed to streamline the entire examination process. From question bank authoring to examination delivery—both offline and online—to advanced data analytics using AI-based tools,
+
+                  IS10  provides a robust, flexible, and user-friendly platform that caters to the needs of educational institutions, certification bodies, and training centres worldwide.
+
+                </p>
+                <a className="bisylms-btn" href="#">
+                  Know More
+                </a>
+              </div>
             </div>
           </div>
-          <div className="col-lg-5 col-md-6">
-            <div className="ab-content">
-              <h3>I will stay with you until you pass your exam.</h3>
-              <p className="mid-item">
-                Who else do you know who'll do that for you?
-              </p>
-              <p>
-                So I said codswallop car boot cheers mufty I don't want no agro
-                are you taking the piss cheeky my lady gutted mate excuse my
-                french, gormless have it cras.
-              </p>
-              <a className="bisylms-btn" href="#">
-                Know More
-              </a>
+        </div>
+        <div className="row mt-120">
+
+          {/* <div className="row">
+            <div className="col-lg-12 col-md-12">
+              <div className="ab-content">
+                <h3 className="text-center">Why Choose IS10 </h3>
+
+                <p className="text-center">
+                  The Intelligent Secure Testing & Evaluation Node stands out as a unique, one-stop solution that encompasses all facets of the examination process. It caters to the needs of modern educational systems by offering a comprehensive platform that not only facilitates seamless examination management but also drives educational excellence through its AI-powered analytics and insights.
+                  By choosing IS10, educational institutions and organizations are investing in a solution that enhances the quality of education, ensures examination integrity, and provides powerful tools for data-driven educational improvements. It's not just a software—it's a complete ecosystem designed to elevate the standards of assessments and evaluations.
+
+                  In today's education sector, where flexibility, security, and efficiency are paramount, IS10emerges as a leading choice for institutions looking to innovate and optimize their examination processes. With its all-encompassing features, ease of use, and advanced AI capabilities, the Intelligent Secure Testing & Evaluation Node sets a new benchmark for comprehensive, secure, and intelligent testing and evaluation solutions.
+
+                </p>
+                <div className="d-flex justify-content-center">
+                  <a className="bisylms-btn" href="#">
+                    Know More
+                  </a>
+                </div>
+              </div>
             </div>
-          </div>
+          </div> */}
+
+          <WhyChooseUs />
+
         </div>
       </div>
     </section>

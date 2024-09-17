@@ -23,14 +23,14 @@ function About1() {
   } else {
     content = (
       <>
-        <Header logo="assets/images/logo4.png" joinBtn={true} />
-        <Banner title="About Us" background="assets/images/banner.jpg" />
+        <Header logo="assets/images/logo7.png" joinBtn={true} />
+        <Banner title="About Us" background="assets/images/about-image.jpg" />
         <PopularCourse />
         <Home3Funfact />
         <Package />
-        <Cta />
+        {/* <Cta />
         <Video />
-        <Home3Teacher className="teachers-section-3" btnClass="bisylms-btn" />
+        <Home3Teacher className="teachers-section-3" btnClass="bisylms-btn" /> */}
         <Footer />
         <GotoTop />
       </>

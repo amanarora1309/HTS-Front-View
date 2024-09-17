@@ -23,11 +23,10 @@ function Footer({ getStart }) {
             <aside className="widget">
               <div className="about-widget">
                 <Link to="/">
-                  <img src="assets/images/logo.png" alt="" />
+                  <img src="assets/images/logo6.png" height="20" alt="" style={{ height: "3rem" }} />
                 </Link>
                 <p>
-                  Lost the plot Richard you mug cup of tea knackered boot
-                  bender.
+                  Intuitive Secure, Testing & Evalutation Node, Online Platform for Secure Question Paper Delivery and Online Examination.
                 </p>
                 <div className="ab-social">
                   <a className="fac" href="#">
@@ -63,7 +62,7 @@ function Footer({ getStart }) {
                   <Link to="#">Resource Center</Link>
                 </li>
                 <li>
-                  <Link to="/course-1">Courses</Link>
+                  <Link to="#">Courses</Link>
                 </li>
                 <li>
                   <Link to="/contact">Contact Us</Link>
@@ -76,7 +75,7 @@ function Footer({ getStart }) {
               <h3 className="widget-title">Catecories</h3>
               <ul>
                 <li>
-                  <Link to="/course-1">All Courses</Link>
+                  <Link to="#">All Courses</Link>
                 </li>
                 <li>
                   <Link to="#">Storytelling & Voice Over</Link>
@@ -127,8 +126,8 @@ function Footer({ getStart }) {
           <div className="col-lg-12 text-center">
             <div className="copyright">
               <p>
-                © 2021 Copyright all Right Reserved Design by{" "}
-                <a href="http://quomodosoft.com/">Quomodosoft</a>
+                © 2024 Copyright all Right Reserved Design by{" "}
+                <a href="">Omr India Outsources</a>
               </p>
             </div>
           </div>

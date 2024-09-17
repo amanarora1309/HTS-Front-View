@@ -20,8 +20,8 @@ function Login() {
     } else {
         content = (
             <>
-                <Header logo="assets/images/logo4.png" joinBtn={true} />
-                <Banner title="Login" background="assets/images/banner.jpg" />
+                <Header logo="assets/images/logo7.png" joinBtn={true} />
+                <Banner title="Login" background="assets/images/about-image.jpg" />
                 <section className="contact-section">
                     <div className="container">
                         <div className="row">

@@ -1,5 +1,5 @@
 // export let url_online = "https://4wq09l1k-5290.inc1.devtunnels.ms";
-export let url_online = "http://13.51.59.133";
+export let url_online = "https://api1.is10live.com";
 
 //organization
 export const CREATE_ORGANIZATION = url_online + "/CreateOrganization";
@@ -13,8 +13,9 @@ export const FORGOT_PASSWORD = url_online + "/ForgotPassword";
 export const RESET_PASSWORD = url_online + "/ResetPassword";
 
 
-// export const SECOND_APP_URL = "http://app2.is10live.com/"
-export const SECOND_APP_URL = "http://localhost:3000/"
+export const SECOND_APP_URL = "https://app2.is10live.com/"
+// export const SECOND_APP_URL = "http://localhost:3000/"
+// export const SECOND_APP_URL = "http://192.168.1.22:3000/"
 
 
 

@@ -15,9 +15,8 @@ function Home3Header() {
   };
   return (
     <header
-      className={` header-03  sticky ${
-        windowPosition > 0 && "fix-header animated fadeInDown"
-      } `}
+      className={` header-03  sticky ${windowPosition > 0 && "fix-header animated fadeInDown"
+        } `}
     >
       <div className="container-fluid">
         <div className="row">
@@ -43,44 +42,39 @@ function Home3Header() {
                     <ul className="list">
                       <li
                         data-value="1"
-                        className={`option focus ${
-                          filter === "Explore" && "selected"
-                        }`}
+                        className={`option focus ${filter === "Explore" && "selected"
+                          }`}
                       >
                         Explore
                       </li>
                       <li
                         data-value="2"
-                        className={`option ${
-                          filter === "Option 01" && "selected"
-                        }`}
+                        className={`option ${filter === "Option 01" && "selected"
+                          }`}
                         onClick={(e) => handleFilter(e)}
                       >
                         Option 01
                       </li>
                       <li
                         data-value="3"
-                        className={`option ${
-                          filter === "Option 02" && "selected"
-                        }`}
+                        className={`option ${filter === "Option 02" && "selected"
+                          }`}
                         onClick={(e) => handleFilter(e)}
                       >
                         Option 02
                       </li>
                       <li
                         data-value="4"
-                        className={`option ${
-                          filter === "Option 03" && "selected"
-                        }`}
+                        className={`option ${filter === "Option 03" && "selected"
+                          }`}
                         onClick={(e) => handleFilter(e)}
                       >
                         Option 03
                       </li>
                       <li
                         data-value="5"
-                        className={`option ${
-                          filter === "Option 04" && "selected"
-                        }`}
+                        className={`option ${filter === "Option 04" && "selected"
+                          }`}
                         onClick={(e) => handleFilter(e)}
                       >
                         Option 04
@@ -127,11 +121,10 @@ function Home3Header() {
                     <a>Home</a>
                     <span className="submenu-toggler">
                       <i
-                        className={`fal ${
-                          activeMobileSubMenu === "home"
+                        className={`fal ${activeMobileSubMenu === "home"
                             ? "fa-minus"
                             : "fa-plus"
-                        }`}
+                          }`}
                       ></i>
                     </span>
                     <ul
@@ -162,11 +155,10 @@ function Home3Header() {
                     <a>Courses</a>
                     <span className="submenu-toggler">
                       <i
-                        className={`fal ${
-                          activeMobileSubMenu === "course"
+                        className={`fal ${activeMobileSubMenu === "course"
                             ? "fa-minus"
                             : "fa-plus"
-                        }`}
+                          }`}
                       ></i>
                     </span>
                     <ul
@@ -199,19 +191,18 @@ function Home3Header() {
                             ? "pages"
                             : e.target.name
                           : activeMobileSubMenu === "pages"
-                          ? false
-                          : "pages"
+                            ? false
+                            : "pages"
                       );
                     }}
                   >
                     <a>Pages</a>
                     <span className="submenu-toggler">
                       <i
-                        className={`fal ${
-                          activeMobileSubMenu === "pages"
+                        className={`fal ${activeMobileSubMenu === "pages"
                             ? "fa-minus"
                             : "fa-plus"
-                        }`}
+                          }`}
                       ></i>
                     </span>
                     <ul
@@ -226,11 +217,10 @@ function Home3Header() {
                         <a name="aboutPages">About Pages</a>
                         <span className="submenu-toggler" name="aboutPages">
                           <i
-                            className={`fal ${
-                              activeMobileSubMenu === "aboutPages"
+                            className={`fal ${activeMobileSubMenu === "aboutPages"
                                 ? "fa-minus"
                                 : "fa-plus"
-                            }`}
+                              }`}
                             name="aboutPages"
                           ></i>
                         </span>
@@ -271,11 +261,10 @@ function Home3Header() {
                     <a>Blog</a>
                     <span className="submenu-toggler">
                       <i
-                        className={`fal ${
-                          activeMobileSubMenu === "blog"
+                        className={`fal ${activeMobileSubMenu === "blog"
                             ? "fa-minus"
                             : "fa-plus"
-                        }`}
+                          }`}
                       ></i>
                     </span>
                     <ul

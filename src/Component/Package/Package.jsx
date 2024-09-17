@@ -39,64 +39,76 @@ function Package() {
             <div id="card-slider" className="pack-slid">
               <PackageCard
                 packageInfo={{
-                  img: "assets/images/home/p1.jpg",
+                  img: "assets/images/gold.jpg",
                   statusImg: "assets/images/home/gold.png",
-                  price: "750",
-                  offerPrice: "450",
+                  price: "500",
+                  offerPrice: "200 / 1 year",
                   memberShipStatus: "Gold Membership",
                   exam: "100",
                   classes: "3",
                   link: "/single-course",
                   description:
-                    "He nicked it I don't want no agro what a load of rubbishbleeding skive off tickety-boo hunky dory chancer.",
+                    "All Features of the Bronze and Silver package.",
+                  ai:
+                    "AI based Proctoring Tool for the Remote Examination",
+                  aiPrice: "USD 0.25 per Assessment"
                 }}
                 id={1}
                 status={carusole}
               />
               <PackageCard
                 packageInfo={{
-                  img: "assets/images/home/p2.jpg",
+                  img: "assets/images/silver.jpg",
                   statusImg: "assets/images/home/silver.png",
-                  price: "750",
-                  offerPrice: "450",
+                  price: "100",
+                  offerPrice: "50 / 500  Assessments ( 1 Year Validity)",
                   memberShipStatus: "Silver Membership",
                   exam: "50",
                   classes: "3",
                   link: "/single-course",
                   description:
-                    "He nicked it I don't want no agro what a load of rubbishbleeding skive off tickety-boo hunky dory chancer.",
+                    "Features Including Bronze Pack, Generate Examination Online, Import Candidates Data Candidate Registers and Do Assessment, Start & Stop Examination, Result Generation, Maximum 500 Candidates",
+                  ai:
+                    "Data Analytics Using AI",
+                  aiPrice: "USD 20 per 500 Assessments."
                 }}
                 id={2}
                 status={carusole}
               />
               <PackageCard
                 packageInfo={{
-                  img: "assets/images/home/p3.jpg",
+                  img: "assets/images/bronze.jpg",
                   statusImg: "assets/images/home/bronze.png",
-                  price: "750",
-                  offerPrice: "450",
+                  price: "50",
+                  offerPrice: "20 / 1 Month",
                   memberShipStatus: "Bronze Membership",
                   exam: "10",
                   classes: "3",
                   link: "/single-course",
                   description:
-                    "He nicked it I don't want no agro what a load of rubbishbleeding skive off tickety-boo hunky dory chancer.",
+                    "Features Create Your Own Class, Course, Section, Subsection, Difficulty Level, Type of Questions, Import your questions. Question Authoring Workflow Generate Question Paper into Docs and Multiple Test Versions. Question Bank Size of Maximum 3000 Questions.",
+                  ai:
+                    "Generation of Question Bank using AI Module.",
+                  aiPrice: "AI Question USD 0.08 per Prompt."
                 }}
                 id={3}
                 status={carusole}
               />
               <PackageCard
                 packageInfo={{
-                  img: "assets/images/home/p2.jpg",
+                  img: "assets/images/silver.jpg",
                   statusImg: "assets/images/home/silver.png",
-                  price: "750",
-                  offerPrice: "450",
+                  price: "100",
+                  offerPrice: "50 / 500  Assessments ( 1 Year Validity)",
                   memberShipStatus: "Silver Membership",
                   exam: "50",
                   classes: "3",
                   link: "/single-course",
                   description:
-                    "He nicked it I don't want no agro what a load of rubbishbleeding skive off tickety-boo hunky dory chancer.",
+                    "Features Including Bronze Pack, Generate Examination Online, Import Candidates Data Candidate Registers and Do Assessment, Start & Stop Examination, Result Generation, Maximum 500 Candidates",
+                  ai:
+                    "Data Analytics Using AI",
+                  aiPrice: "USD 20 per 500 Assessments."
                 }}
                 id={4}
                 status={carusole}

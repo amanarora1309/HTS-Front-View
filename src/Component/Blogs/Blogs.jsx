@@ -8,7 +8,7 @@ function Blogs() {
       style={{ backgroundImage: "url(assets/images/home/blog-bg.png)" }}
     >
       <div className="container">
-        <div className="row">
+        {/* <div className="row">
           <div className="col-md-12 text-center">
             <h2 className="sec-title">
               <span>Secrets of</span> learning Revealed in Blogs
@@ -19,7 +19,7 @@ function Blogs() {
           {blogs.map(
             (blog, index) => index < 3 && <BlogCard blog={blog} key={blog.id} />
           )}
-        </div>
+        </div> */}
       </div>
     </section>
   );

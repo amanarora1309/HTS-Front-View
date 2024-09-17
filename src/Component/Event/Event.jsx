@@ -15,14 +15,14 @@ function Event() {
           <div className="col-md-6">
             <div className="event-item-1">
               <div className="e-date">
-                24 <span>Jun</span>
+                18 <span>September</span>
               </div>
               <p>
-                <i className="icon_pin_alt"></i>New York, US
+                <i className="icon_pin_alt"></i>New Delhi, INDIA
               </p>
               <h4>
                 <Link to="single-event">
-                  Consumer Food Safety Education Conference
+                  DIDAC INDIA 2024 - Annual International Exhibition and Conference
                 </Link>
               </h4>
               <Link className="bisylms-btn" to="#">
@@ -33,14 +33,14 @@ function Event() {
           <div className="col-md-6">
             <div className="event-item-1">
               <div className="e-date">
-                27 <span>July</span>
+                07 <span>November</span>
               </div>
               <p>
-                <i className="icon_pin_alt"></i>Vancouver, Canada
+                <i className="icon_pin_alt"></i>Singapore
               </p>
               <h4>
                 <Link to="single-event">
-                  Build Education Website Using WordPress
+                  Asia's largest conference and exhibition for educators and EdTech providers
                 </Link>
               </h4>
               <Link className="bisylms-btn" to="#">
@@ -48,42 +48,7 @@ function Event() {
               </Link>
             </div>
           </div>
-          <div className="col-md-6">
-            <div className="event-item-1">
-              <div className="e-date">
-                16 <span>Nov</span>
-              </div>
-              <p>
-                <i className="icon_pin_alt"></i>Chicago, US
-              </p>
-              <h4>
-                <Link to="single-event">
-                  How Meditation Improve your Mental Health?
-                </Link>
-              </h4>
-              <Link className="bisylms-btn" to="#">
-                Get Ticket
-              </Link>
-            </div>
-          </div>
-          <div className="col-md-6">
-            <div className="event-item-1">
-              <div className="e-date">
-                13 <span>Nov</span>
-              </div>
-              <p>
-                <i className="icon_pin_alt"></i>Texas, US
-              </p>
-              <h4>
-                <Link to="single-event">
-                  Understanding Luxury Fashion in a Changing
-                </Link>
-              </h4>
-              <Link className="bisylms-btn" to="#">
-                Get Ticket
-              </Link>
-            </div>
-          </div>
+
         </div>
         <div className="row">
           <div className="col-md-12 text-center">

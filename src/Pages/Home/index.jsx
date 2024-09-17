@@ -24,12 +24,15 @@ function Home() {
   } else {
     content = (
       <>
-        <Header logo="assets/images/logo.png" joinBtn={true} />
+        <Header logo="assets/images/logo6.png" joinBtn={true} />
         <HomeHero />
-        <PopularCourse course={true} heading={true} />
-        <Feature />
-        <Cta />
-        <Video />
+        <div id="feature">
+
+          <PopularCourse course={true} heading={true} />
+        </div>
+        {/* <Feature /> */}
+        {/* <Cta /> */} 
+        {/* <Video /> */}
         <Event />
         <Package />
         <Blogs />

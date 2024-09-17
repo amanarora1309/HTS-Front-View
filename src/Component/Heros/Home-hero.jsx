@@ -26,11 +26,9 @@ function HomeHero() {
         <div className="row">
           <div className="col-lg-5 col-md-5">
             <div className="hero-content">
-              <h2>Your Course To Success</h2>
+              <h2>Your Platform To Success</h2>
               <p>
-                Loo you mug lurgy baking cakes boot cracking goal morish up the
-                duff haggle hotpot faff about no biggie burke, is bleeder
-                bamboozled bite your.
+                Intuitive Secure, Testing & Evalutation Node, Online Platform for Secure Question Paper Delivery and Online Examination.
               </p>
               <Link to="/course-1" className="bisylms-btn">
                 Ready to Get Started?
