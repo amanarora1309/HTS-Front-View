@@ -18,7 +18,7 @@ function Footer({ getStart }) {
             </div>
           </div>
         )}
-        <div className="row">
+        <div className="row d-flex justify-content-between">
           <div className="col-lg-4 col-md-3">
             <aside className="widget">
               <div className="about-widget">
@@ -53,16 +53,16 @@ function Footer({ getStart }) {
                   <Link to="/about-1">About Us</Link>
                 </li>
                 <li>
-                  <Link to="#">Success Story</Link>
+                  <Link to="#feature">Features</Link>
                 </li>
                 <li>
-                  <Link to="#">Careers</Link>
+                  <Link to="/Pricing">Pricing</Link>
                 </li>
                 <li>
-                  <Link to="#">Resource Center</Link>
+                  <Link to="/join-for-free">Join For Free</Link>
                 </li>
                 <li>
-                  <Link to="#">Courses</Link>
+                  <Link to="/login">Login</Link>
                 </li>
                 <li>
                   <Link to="/contact">Contact Us</Link>
@@ -70,7 +70,7 @@ function Footer({ getStart }) {
               </ul>
             </aside>
           </div>
-          <div className="col-lg-3 col-md-3">
+          {/* <div className="col-lg-3 col-md-3">
             <aside className="widget">
               <h3 className="widget-title">Catecories</h3>
               <ul>
@@ -94,7 +94,7 @@ function Footer({ getStart }) {
                 </li>
               </ul>
             </aside>
-          </div>
+          </div> */}
           <div className="col-lg-2 col-md-3">
             <aside className="widget">
               <h3 className="widget-title">Support</h3>

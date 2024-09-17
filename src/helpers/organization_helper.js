@@ -5,3 +5,4 @@ import * as url from "./url_helper"
 // Create Organization
 export const CreateOrganization = data => post(url.CREATE_ORGANIZATION, data);
 export const Login = data => post(url.LOGIN, data);
+export const ContactUs = data => post(url.CONTACT_US, data);

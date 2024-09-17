@@ -28,10 +28,8 @@ function Login() {
 
                             <div className="col-md-6 m-auto">
                                 <div className="contact-form">
-                                    <h4>Login</h4>
-                                    <p>
-                                        Integer at lorem eget diam facilisis lacinia ac id massa.
-                                    </p>
+                                    <h4 className="mb-4">Login</h4>
+
                                     <LoginForm />
                                 </div>
                             </div>

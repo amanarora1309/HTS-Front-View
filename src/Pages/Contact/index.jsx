@@ -71,10 +71,8 @@ function Contact() {
               </div>
               <div className="col-md-8">
                 <div className="contact-form">
-                  <h4>Let’s Connect</h4>
-                  <p>
-                    Integer at lorem eget diam facilisis lacinia ac id massa.
-                  </p>
+                  <h4 className="mb-4">Let’s Connect</h4>
+
                   <ContactForm />
                 </div>
               </div>

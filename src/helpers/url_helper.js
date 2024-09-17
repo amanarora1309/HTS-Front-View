@@ -18,6 +18,7 @@ export const SECOND_APP_URL = "https://app2.is10live.com/"
 // export const SECOND_APP_URL = "http://192.168.1.22:3000/"
 
 
+export const CONTACT_US = url_online + "/ContactUsDetails";
 
 // Auth 
 export const LOGIN = url_online + "/Login"

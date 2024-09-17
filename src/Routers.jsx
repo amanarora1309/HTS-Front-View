@@ -19,6 +19,8 @@ import Login from "./Pages/Login";
 import Pricing from "./Pages/Pricing";
 import ForgotPassword from "./Pages/ForgotPassword";
 import ResetPassword from "./Pages/ResetPassword";
+import Success from "./Pages/PaymentStatus/Success";
+import Fail from "./Pages/PaymentStatus/Fail";
 
 const router = createBrowserRouter([
   {
@@ -74,6 +76,14 @@ const router = createBrowserRouter([
   //   element: <SinglePost />,
   // },
   {
+    path: "/payment-success",
+    element: <Success />
+  },
+  {
+    path: "/payment-fail",
+    element: <Fail />
+  },
+  {
     path: "/contact",
     element: <Contact />,
   },
@@ -89,6 +99,7 @@ const router = createBrowserRouter([
     path: "/login",
     element: <Login />
   },
+
   // {
   //   path: "/forgot-password",
   //   element: <ForgotPassword />

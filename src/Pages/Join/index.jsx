@@ -75,7 +75,7 @@ function Join() {
                             </div> */}
                             <div className="col-md-6 m-auto">
                                 <div className="contact-form">
-                                    <h4>Let’s Join</h4>
+                                    <h4 className="mb-3">Let’s Join</h4>
 
                                     <JoinForm />
                                 </div>
