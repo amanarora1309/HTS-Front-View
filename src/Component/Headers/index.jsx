@@ -49,7 +49,7 @@ function Header({ className, logo, joinBtn, search }) {
                     <Link to="/">Home </Link>
                   </li>
                   <li>
-                    <Link to="/about-1">About</Link>
+                    <Link to="/about">About</Link>
                   </li>
                   <li>
                     {/* <Link to="#feature">Features </Link> */}

@@ -13,9 +13,9 @@ export const FORGOT_PASSWORD = url_online + "/ForgotPassword";
 export const RESET_PASSWORD = url_online + "/ResetPassword";
 
 
-export const SECOND_APP_URL = "https://app2.is10live.com/"
-// export const SECOND_APP_URL = "http://localhost:3000/"
-// export const SECOND_APP_URL = "http://192.168.1.22:3000/"
+// export const SECOND_APP_URL = "https://app2.is10live.com/"
+export const SECOND_APP_URL = "http://localhost:3000/"
+// export const SECOND_APP_URL = "http://192.168.1.37:3000/"
 
 
 export const CONTACT_US = url_online + "/ContactUsDetails";

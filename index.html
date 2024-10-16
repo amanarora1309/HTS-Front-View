@@ -22,6 +22,20 @@
 
   <!-- Favicon Icon -->
   <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+
+  <script>
+    (function () {
+      var script = document.createElement('script');
+      script.src = 'https://tracker.metricool.com/resources/be.js';
+      script.async = true;
+      script.onload = function () {
+        if (window.beTracker) {
+          window.beTracker.t({ hash: '644dd1f78b6c2f311c9c54f48437cbf2' });
+        }
+      };
+      document.head.appendChild(script);
+    })();
+  </script>
 </head>
 
 <body>

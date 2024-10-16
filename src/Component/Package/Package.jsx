@@ -46,7 +46,7 @@ function Package() {
                   memberShipStatus: "Gold Membership",
                   exam: "100",
                   classes: "3",
-                  link: "/single-course",
+                  link: "/login",
                   description:
                     "All Features of the Bronze and Silver package.",
                   ai:
@@ -65,7 +65,7 @@ function Package() {
                   memberShipStatus: "Silver Membership",
                   exam: "50",
                   classes: "3",
-                  link: "/single-course",
+                  link: "/login",
                   description:
                     "Features Including Bronze Pack, Generate Examination Online, Import Candidates Data Candidate Registers and Do Assessment, Start & Stop Examination, Result Generation, Maximum 500 Candidates",
                   ai:
@@ -84,7 +84,7 @@ function Package() {
                   memberShipStatus: "Bronze Membership",
                   exam: "10",
                   classes: "3",
-                  link: "/single-course",
+                  link: "/login",
                   description:
                     "Features Create Your Own Class, Course, Section, Subsection, Difficulty Level, Type of Questions, Import your questions. Question Authoring Workflow Generate Question Paper into Docs and Multiple Test Versions. Question Bank Size of Maximum 3000 Questions.",
                   ai:
@@ -103,7 +103,7 @@ function Package() {
                   memberShipStatus: "Silver Membership",
                   exam: "50",
                   classes: "3",
-                  link: "/single-course",
+                  link: "/login",
                   description:
                     "Features Including Bronze Pack, Generate Examination Online, Import Candidates Data Candidate Registers and Do Assessment, Start & Stop Examination, Result Generation, Maximum 500 Candidates",
                   ai:

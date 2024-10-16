@@ -52,7 +52,7 @@ const router = createBrowserRouter([
   //   element: <CourseSingle />,
   // },
   {
-    path: "/about-1",
+    path: "/about",
     element: <About1 />,
   },
   // {
