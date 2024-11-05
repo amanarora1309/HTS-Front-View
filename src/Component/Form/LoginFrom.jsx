@@ -33,21 +33,26 @@ function LoginForm() {
             setspanDisplay("inline");
         }
         else {
-            setLoader(true);
+            try {
+                setLoader(true);
 
-            const result = await Login({ email, password })
-            if (result?.success) {
-                // Save authUser to localStorage in the login app 
+                const result = await Login({ email, password })
+                if (result?.success) {
+                    // Save authUser to localStorage in the login app 
 
-                // Redirect to dashboard
-                window.location.href = `${SECOND_APP_URL}dashboard/?authtoken=${JSON.stringify(result)}`;
+                    // Redirect to dashboard
+                    window.location.href = `${SECOND_APP_URL}dashboard/?authtoken=${JSON.stringify(result)}`;
 
-            }
-            else {
+                }
+                else {
+                    setLoader(false);
+                    toast.error(result?.message);
+                }
+            } catch (error) {
+                toast.error(error?.response?.data?.message || "Something went wrong");
+            } finally {
                 setLoader(false);
-                toast.error(result?.message);
             }
-
         }
     };
 
