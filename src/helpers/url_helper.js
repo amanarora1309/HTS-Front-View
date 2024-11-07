@@ -5,6 +5,7 @@ export let url_online = "https://api1.is10live.com";
 export const CREATE_ORGANIZATION = url_online + "/CreateOrganization";
 
 // otp 
+
 export const GET_OTP = url_online + "/GetOTP"
 export const VERIFY_OTP = url_online + "/VerifyOTP"
 
@@ -13,12 +14,14 @@ export const FORGOT_PASSWORD = url_online + "/ForgotPassword";
 export const RESET_PASSWORD = url_online + "/ResetPassword";
 
 
-export const SECOND_APP_URL = "https://app2.is10live.com/"
-// export const SECOND_APP_URL = "http://localhost:3000/"
-// export const SECOND_APP_URL = "http://192.168.1.37:3000/"
+// export const SECOND_APP_URL = "https://app2.is10live.com/"
+
+export const SECOND_APP_URL = "http://localhost:5173/"
+// export const SECOND_APP_URL = "http://192.168.1.48:5173/"
 
 
 export const CONTACT_US = url_online + "/ContactUsDetails";
+
 
 // Auth 
 export const LOGIN = url_online + "/Login"

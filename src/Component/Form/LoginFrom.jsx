@@ -26,7 +26,8 @@ function LoginForm() {
 
 
     const handleSubmit = async (e) => {
-
+        // console.log(`${SECOND_APP_URL}dashboard/`)
+        // return
         e.preventDefault();
         console.log("submit")
         if (!email || !password) {
@@ -39,6 +40,7 @@ function LoginForm() {
                 const result = await Login({ email, password })
                 if (result?.success) {
                     // Save authUser to localStorage in the login app 
+
 
                     // Redirect to dashboard
                     window.location.href = `${SECOND_APP_URL}dashboard/?authtoken=${JSON.stringify(result)}`;
